@@ -23,6 +23,8 @@
  </table>
 <br>
 
+
+Bu proje de Firebase Authentication ve Firestore kullanılarak geliştirilmiştir.
 # my_e_commerce_app
 
 A new Flutter project.
