@@ -6,7 +6,7 @@ import 'package:provider/provider.dart';
 class OnBoardingViewModel with ChangeNotifier {
   late PageController pageController;
   int pageIndex = 0;
-  int selectedPageIndex = 0; // Eklenen satır
+  int selectedPageIndex = 0; 
 
   OnBoardingViewModel() {
     getPage();
@@ -17,7 +17,7 @@ class OnBoardingViewModel with ChangeNotifier {
     notifyListeners();
   }
 
-  // Diğer metodlar ve kodlar
+  
 
   // Yeni metod: Seçilen sayfa indeksini güncelle
   void updateSelectedPageIndex(int index) {
