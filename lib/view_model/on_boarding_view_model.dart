@@ -19,7 +19,7 @@ class OnBoardingViewModel with ChangeNotifier {
 
   
 
-  // Yeni metod: Seçilen sayfa indeksini güncelle
+
   void updateSelectedPageIndex(int index) {
     selectedPageIndex = index;
     notifyListeners();
